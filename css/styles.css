@@ -78,7 +78,17 @@ ul li a:hover {
     width: 25%;
 }
 
+/* Footer */
 footer {
-    clear: left;
+	clear: both;
+	padding: px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
 
+/* icons */
+.fa-dog {
+	color: white;
 }
