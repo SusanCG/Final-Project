@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(146, 146, 146);
+    margin: auto;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    background-color: rgb(146, 146, 146);
+    margin-bottom: 10px;
+    box-shadow: 4px 8px 10px aqua;
+    text-shadow: 2px 2px white;
+}
+
+nav {
+    box-shadow: 4px 8px 10px aqua;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    background-color: aqua;
+    padding: 5px;
+    padding-right: 14px;
+    display: inline-block;
+    border-radius: 70%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    color: black;
+    margin: auto;
+    padding: 15px;
+    height: 1000px;
+}
+
+.columns {
+    float: left;
+    width: 450px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.one {
+    width: 25%;
+}
+
+.two {
+    width: 40%
+}
+
+.three {
+    width: 25%;
+}
+
+footer {
+    clear: left;
+
+}
