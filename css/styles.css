@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(146, 146, 146);
-    padding: auto;
+    background: rgb(146, 146, 146);
+    background: linear-gradient(0deg, rgba(146, 146, 146, 0.4514180672268907) 4%, rgba(0, 0, 0, 1) 100%);
     margin-bottom: 10px;
 }
 
@@ -11,15 +11,16 @@ h4,
 h5,
 h6 {
     background-color: rgb(146, 146, 146);
+    /* border: 2px solid rgb(0, 0, 0); */
     margin-bottom: 10px;
     box-shadow: 4px 8px 10px aqua;
     text-shadow: 2px 2px white;
 }
 
 p {
-	font-family: 'Roboto', sans-serif;
-	line-height: -1.5;
-	letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    line-height: -1.5;
+    letter-spacing: 2px;
 }
 
 /* Hero */
@@ -37,7 +38,7 @@ p {
     text-align: center;
     display: inline-block;
     position: relative;
-    top: 240px;
+    top: 100px;
     left: 50px;
 }
 
@@ -122,7 +123,7 @@ ul li a:hover {
 footer {
     clear: both;
     padding: px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     background-color: black;
     color: white;
