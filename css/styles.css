@@ -135,7 +135,7 @@ footer {
 }
 
 /* form */
-.type[text] .type[email] textarea {
-    width: 80%;
+/* .type[text] .type[email] textarea {
+    width: 50%;
     box-sizing: border-box;
-}
+} */
