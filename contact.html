@@ -52,15 +52,26 @@
 
             <div class="columns col-two">
                 <h2>Column 2</h2>
-                <img src="/img/white horse.jpg" alt="white horse">
-                <p>Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora laboriosam asperiores
-                    facilis ipsam cupiditate quibusdam enim accusamus magni quas. Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit. Tenetur suscipit itaque quo quis similique qui eum, dolorum ea
-                    expedita tempora laboriosam asperiores facilis ipsam cupiditate quibusdam enim accusamus magni quas.
-                </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo quis similique
-                    qui eum, dolorum ea expedita tempora laboriosam asperiores facilis ipsam cupiditate quibusdam enim
-                    accusamus magni quas.</p>
+                <div class="container">
+                    <form action="action_page.php">
+
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email.." required><br>
+
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" name="commennt" placeholder="Write something.."
+                            style="height:200px"></textarea><br>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
             </div>
 
         </main>

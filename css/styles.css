@@ -133,3 +133,9 @@ footer {
 .fa-horse {
     color: white;
 }
+
+/* form */
+.type[text] .type[email] textarea {
+    width: 80%;
+    box-sizing: border-box;
+}
