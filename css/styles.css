@@ -108,12 +108,12 @@ ul li a:hover {
 
 .col-one {
     background-color: gainsboro;
-    background-image: url('/img/beach-sunset.jpg');
+    background-image: url('../img/beach-sunset.jpg');
 }
 
 .col-two {
     background-color: gainsboro;
-    background-image: url('/img/beach-sunset.jpg');
+    background-image: url('../img/beach-sunset.jpg');
 }
 
 .text-back {
